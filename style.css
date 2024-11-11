@@ -3,3 +3,7 @@ table
     width: 100%;
     border: 1px solid yellowgreen;
 }
+td
+{
+    border: 1px  solid yellowgreen;
+}
