@@ -1,8 +1,8 @@
 var input = document.querySelector('input');
 const button = document.querySelector('button');
-var input = document.querySelector('inputRows');
+var inputRows = document.querySelector('.inputRows');
 const button1 = document.querySelector('.btn1');
-var input = document.querySelector('.inputCols');
+var inputCols = document.querySelector('.inputCols');
 const button2 = document.querySelector('.btn2');
 const button3 = document.querySelector('.createTable');
 button3.addEventListener = createTable();
@@ -11,7 +11,7 @@ function btn1()
 {
 
 }
-createTable(elem,5,5);
+createTable(elem,inputCols,inputRows);
 function createTable(elements,cols,rows)
 {
     let table =  document.createElement('table');
@@ -26,5 +26,5 @@ function createTable(elements,cols,rows)
         }
         table.appendChild(tr);
     }
-    parent.appendChild(table);
+    elements.appendChild(table);
 }
