@@ -5,7 +5,7 @@ const button1 = document.querySelector('.btn1');
 var input = document.querySelector('.inputCols');
 const button2 = document.querySelector('.btn2');
 const button3 = document.querySelector('.createTable');
-button.addEventListener = createTable();
+button3.addEventListener = createTable();
 var elem = document.querySelector('#elem');
 function btn1()
 {
