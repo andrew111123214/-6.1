@@ -15,7 +15,7 @@ function enterTwo()
 }
 function result()
 {
-    alert(inputOne.value*inputTwo.value*0.5);
+    console.log(inputOne.value*inputTwo.value*0.5);
 }
 buttonOne.addEventListener('click', enterOne);
 buttonTwo.addEventListener('click', enterTwo);
