@@ -11,7 +11,7 @@ function btn1()
 {
 
 }
-createTable(elem,cols,rows);
+createTable(elem,5,5);
 function createTable(elements,cols,rows)
 {
     let table =  document.createElement('table');
