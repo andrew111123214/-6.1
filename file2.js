@@ -11,9 +11,8 @@ function inputValue1(input2)
 {
     console.log(input2.value);
 }
-function square()
+function square(input1,input2)
 {
-    let value1 = input1.value;
-    let value2 = input2.value;
-    console.log(value1*value2*0.5);
+   
+    console.log(input1.value*input2.value);
 }
