@@ -1,8 +1,8 @@
-let inputOne = document.querySelector('.input1');
-let buttonOne = document.querySelector('.button1');
-let inputTwo = document.querySelector('.input2');
-let buttonTwo = document.querySelector('.button2');
-let buttonThree = document.querySelector('.button3');
+let inputOne = document.querySelector('.inputOne');
+let buttonOne = document.querySelector('.buttonOne');
+let inputTwo = document.querySelector('.inputTwo');
+let buttonTwo = document.querySelector('.buttonTwo');
+let buttonThree = document.querySelector('.buttonThree');
 buttonOne.addEventListener('click', enteOne);
 function enterOne()
 {
