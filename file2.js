@@ -5,6 +5,6 @@ let button2 = document.querySelector('.button2');
 let button3 = document.querySelector('.button3');
 button1.onclick = function()
 {
-    console.log();
+    console.log(input1.value);
     
 }
