@@ -7,4 +7,11 @@ function inputValue(input1)
 {
     console.log(input1);
 }
-
+function inputValue1(input2)
+{
+    console.log(input1);
+}
+function Value(input1,input2)
+{
+    console.log(input1*input2*0,5);
+}
