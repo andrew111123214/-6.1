@@ -6,5 +6,5 @@ let button3 = document.querySelector('.button3');
 button1.addEventListener('click', enter);
 function enter()
 {
-    console.log(input1);
+    console.log('click');
 }
