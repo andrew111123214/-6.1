@@ -2,7 +2,8 @@ let input = document.querySelector('input');
 let button =  document.querySelector('button');
 function enter()
 {
-    switch (input.value) 
+    let a = parseInt(input.value);
+    switch (a) 
     {
         case 1:alert("Понедельник")
         
