@@ -3,7 +3,6 @@ const buttonOne = document.querySelector('.buttonOne');
 let inputTwo = document.querySelector('.inputTwo');
 const buttonTwo = document.querySelector('.buttonTwo');
 const buttonThree = document.querySelector('.buttonThree');
-buttonOne.addEventListener('click', enterOne);
 function enterOne()
 {
     console.log('click');
@@ -18,3 +17,4 @@ function result()
 {
     console.log('click');
 }
+buttonOne.addEventListener('click', enterOne);
