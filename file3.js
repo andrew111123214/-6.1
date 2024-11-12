@@ -1,16 +1,19 @@
-let input = document.querySelector('input');
+var input = document.querySelector('input');
 const button = document.querySelector('button');
 button.addEventListener = createTable();
-let elem = document.querySelector('#elem');
+var elem = document.querySelector('#elem');
 function createTable(elements,cols,rows)
 {
     let table =  document.createElement('table');
-    for (let i = 0; i < array.length; i++) 
+    for (var i = 0; i < rows; i++) 
         {
-        const element = array[i];
-        for (let j = 0; j < array.length; j++) 
+            var tr =  document.createElement('tr');
+
+        for (var j = 0; j <cols; j++) 
         {
-            const element = array[j];
+            var td =  document.createElement('td');
+            table.appendChild(td);
         }
+        table.appendChild(tr);
     }
 }
