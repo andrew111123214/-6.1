@@ -3,9 +3,9 @@ const buttonOne = document.querySelector('.buttonOne');
 let inputTwo = document.querySelector('.inputTwo');
 const buttonTwo = document.querySelector('.buttonTwo');
 const buttonThree = document.querySelector('.buttonThree');
-function enterOne(inputOne)
+function enterOne()
 {
-    console.log(inputOne);
+    console.log(inputOne.value);
 }
 function enterTwo()
 {
