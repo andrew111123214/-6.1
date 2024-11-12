@@ -7,14 +7,14 @@ function enterOne()
 {
     console.log('click');
 }
-buttonTwo.addEventListener('click', enterTwo);
 function enterTwo()
 {
     console.log('click');
 }
-buttonThree.addEventListener('click', result);
 function result()
 {
     console.log('click');
 }
 buttonOne.addEventListener('click', enterOne);
+buttonTwo.addEventListener('click', enterTwo);
+buttonThree.addEventListener('click', result);
