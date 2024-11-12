@@ -5,7 +5,7 @@ const buttonTwo = document.querySelector('.buttonTwo');
 const buttonThree = document.querySelector('.buttonThree');
 function enterOne()
 {
-    console.log('click');
+    console.log(input.value);
 }
 function enterTwo()
 {
