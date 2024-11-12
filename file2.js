@@ -3,7 +3,7 @@ let buttonOne = document.querySelector('.buttonOne');
 let inputTwo = document.querySelector('.inputTwo');
 let buttonTwo = document.querySelector('.buttonTwo');
 let buttonThree = document.querySelector('.buttonThree');
-buttonOne.addEventListener('click', enteOne);
+buttonOne.addEventListener('click', enterOne);
 function enterOne()
 {
     console.log('click');
