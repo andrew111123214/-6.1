@@ -21,4 +21,5 @@ function createTable(elements,cols,rows)
         }
         table.appendChild(tr);
     }
+    parent.appendChild(table);
 }
