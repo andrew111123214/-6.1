@@ -18,7 +18,6 @@ function enterTwo()
 function result()
 {
     console.log(a*h*0.5);
-    alert("Площадь треугольника",a*b*0.5);
 }
 buttonOne.addEventListener('click', enterOne);
 buttonTwo.addEventListener('click', enterTwo);
