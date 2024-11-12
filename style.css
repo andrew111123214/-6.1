@@ -11,3 +11,7 @@ th
 {
     border: 1px  solid yellowgreen;
 }
+a
+{
+    display: none;
+}
