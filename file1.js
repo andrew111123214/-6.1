@@ -26,7 +26,7 @@ function enter()
         case 7:alert("Воскресенье")
         
             break;
-        default:alert("Ошиббка в номере дня")
+        default:alert("В неделе всего 7 дней:)")
             break;
     }
     
