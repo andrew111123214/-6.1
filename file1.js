@@ -1,5 +1,7 @@
-var s= prompt("Введите номер дня недели","")*1
-switch (s) {
+let input = document.querySelector('input');
+let button =  document.querySelector('button');
+switch (input.value) 
+{
     case 1:alert("Понедельник")
         
         break;
@@ -24,3 +26,8 @@ switch (s) {
     default:alert("Ошиббка в номере дня")
         break;
 }
+function enter()
+{
+    console.log();
+}
+button.addEventListener('click',enter);
