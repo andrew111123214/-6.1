@@ -6,17 +6,17 @@ let button3 = document.querySelector('.button3');
 button1.addEventListener('click', inputValue);
 button2.addEventListener('click', inputValue1);
 button3.addEventListener('click', square);
-function inputValue(input1)
+function inputValue()
 {
     console.log(input1.value);
 }
-function inputValue1(input2)
+function inputValue1()
 {
     console.log(input2.value);
 }
-function square(input1,input2)
+function square()
 {
     let value1 = input1.value;
     let value2 = input2.value;
-    console.log(input1*input2*0.5);
+    console.log(value1*value2*0.5);
 }
