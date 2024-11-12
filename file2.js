@@ -17,6 +17,3 @@ function square()
     let value2 = input2.value;
     console.log(value1*value2*0.5);
 }
-button1.addEventListener('click', inputValue);
-button2.addEventListener('click', inputValue1);
-button3.addEventListener('click', square);
