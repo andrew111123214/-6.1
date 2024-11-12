@@ -1,12 +1,9 @@
 var s= prompt("Введите номер дня недели","")*1
 switch (s) {
-    case 1:alert("")
-        
-        break;
     case 1:alert("Понедельник")
         
         break;
-    case 2:alert("Виорник")
+    case 2:alert("Вторник")
         
         break;
     case 3:alert("Среда")
