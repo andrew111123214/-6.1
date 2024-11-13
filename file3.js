@@ -1,18 +1,30 @@
-var input = document.querySelector('input');
-const button = document.querySelector('button');
+var input = document.querySelector('.inputIn');
+const button = document.querySelector('.btn1');
 var inputRows = document.querySelector('.inputRows');
-const button1 = document.querySelector('.btn1');
+const button1 = document.querySelector('.btn2');
 var inputCols = document.querySelector('.inputCols');
-const button2 = document.querySelector('.btn2');
+const button2 = document.querySelector('.btn3');
 const button3 = document.querySelector('.createTable');
-button3.addEventListener = createTable();
-var elem = document.querySelector('#elem');
-function btn1()
-{
+button.addEventListener = createTable();
+button1.addEventListener = enterBtn1();
+button2.addEventListener = enterBtn2();
+button3.addEventListener = enterBtn3();
 
+var elem = document.querySelector('#elem');
+function enterBtn1()
+{
+    console.log(input.value);
 }
-createTable(elem,inputCols,inputRows);
-function createTable(elements,cols,rows)
+function enterBtn2()
+{
+    console.log(inputRows.value);
+}
+function enterBtn3()
+{
+    console.log(inputCols.value);
+}
+createTable(elem,inputCols.value,inputRows.value);
+function createTable(parent,cols,rows)
 {
     let table =  document.createElement('table');
     for (var i = 0; i < rows; i++) 
@@ -26,5 +38,5 @@ function createTable(elements,cols,rows)
         }
         table.appendChild(tr);
     }
-    elements.appendChild(table);
+    parent.appendChild(table);
 }
