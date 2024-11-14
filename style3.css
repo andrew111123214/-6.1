@@ -1,10 +1,19 @@
+body
+{
+    background-color: aqua;
+}
+table
+{
+    border-radius: 15px;
+}
 td
 {
     border: 1px solid black;
     align-items: center;
     padding: 20px;
-    background-color: orange;
+    background-color:white;
     border-radius: 15px;
+    
 }
 tr
 {
@@ -15,4 +24,10 @@ div
 {
     width: auto;
     height: auto;
+}
+button
+{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
 }

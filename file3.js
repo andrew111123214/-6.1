@@ -33,7 +33,7 @@ function createTable(parent,cols,rows)
             let value = i*j;
             if (i === j) 
                 {
-                td.style.backgroundColor = 'red';
+                td.style.backgroundColor = 'orange';
                 }
             td.innerText = value ;
             table.appendChild(td);
