@@ -31,3 +31,16 @@ button
     padding: 10px;
     border-radius: 10px;
 }
+input
+{
+    padding: 10px;
+    border-radius: 10px;
+}
+.container
+{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
