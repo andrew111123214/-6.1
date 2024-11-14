@@ -8,6 +8,11 @@ const buttonFour = document.querySelector('.createTable');
 var elem1 = document.querySelector('#elem');
 function enterBtnOne()
 {
+    value = parseInt(input.value);
+    if(value<0 || value>10) 
+        {
+            alert("Вы ввели неверное значение!");
+        }
     console.log(input.value);
 }
 function enterBtnTwo()
@@ -20,6 +25,11 @@ function enterBtnThree()
 }
 function createTable(parent,cols,rows)
 {
+    const pastTable = parent.querySelector('table');
+    if (pastTable) 
+        {
+        parent.removeChild(pastTable);
+    }
     cols = parseInt(cols);
     rows = parseInt(rows);
     let table =  document.createElement('table');
@@ -49,3 +59,4 @@ buttonOne.addEventListener('click',enterBtnOne);
 buttonTwo.addEventListener('click',enterBtnTwo);
 buttonThree.addEventListener('click',enterBtnThree);
 buttonFour.addEventListener('click', ()=>createTable(elem1,inputCols.value,inputRows.value));
+value = parseInt(input.value);
