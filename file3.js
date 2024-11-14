@@ -5,14 +5,11 @@ const button1 = document.querySelector('.btn2');
 var inputCols = document.querySelector('.inputCols');
 const button2 = document.querySelector('.btn3');
 const button3 = document.querySelector('.createTable');
-button.addEventListener = ('click',enterBtn1);
-button1.addEventListener = ('click',enterBtn2);
-button2.addEventListener = ('click',enterBtn3);
-button3.addEventListener = ('click', ()=>createTable(elem,inputCols.value,inputRows.value));
 var elem = document.querySelector('#elem');
+createTable(elem, inputCols.value, inputRows.value)
 function enterBtn1()
 {
-    console.log(input.value);
+    console.log();
 }
 function enterBtn2()
 {
@@ -40,3 +37,7 @@ function createTable(parent,cols,rows)
     }
     parent.appendChild(table);
 }
+button.addEventListener = ('click',enterBtn1);
+button1.addEventListener = ('click',enterBtn2);
+button2.addEventListener = ('click',enterBtn3);
+button3.addEventListener = ('click', ()=>createTable(elem,inputCols.value,inputRows.value));
