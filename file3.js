@@ -1,10 +1,10 @@
 var input = document.querySelector('.inputIn');
-const button = document.querySelector('.btn1');
+const buttonOne = document.querySelector('.btnOne');
 var inputRows = document.querySelector('.inputRows');
-const button1 = document.querySelector('.btn2');
+const buttonTwo = document.querySelector('.btnTwo');
 var inputCols = document.querySelector('.inputCols');
-const button2 = document.querySelector('.btn3');
-const button3 = document.querySelector('.createTable');
+const buttonThree = document.querySelector('.btnThree');
+const buttonFour = document.querySelector('.createTable');
 var elem1 = document.querySelector('#elem');
 function enterBtnOne()
 {
@@ -14,7 +14,7 @@ function enterBtnTwo()
 {
     console.log(inputRows.value);
 }
-function enterBtnTree()
+function enterBtnThree()
 {
     console.log(inputCols.value);
 }
@@ -36,7 +36,7 @@ function createTable(parent,cols,rows)
     }
     parent.appendChild(table);
 }
-button.addEventListener = ('click',enterBtnOne);
-button1.addEventListener = ('click',enterBtnTwo);
-button2.addEventListener = ('click',enterBtnTree);
-button3.addEventListener = ('click', ()=>createTable(elem1,inputCols.value,inputRows.value));
+buttonOne.addEventListener = ('click',enterBtnOne);
+buttonTwo.addEventListener = ('click',enterBtnTwo);
+buttonThree.addEventListener = ('click',enterBtnThree);
+buttonFour.addEventListener = ('click', ()=>createTable(elem1,inputCols.value,inputRows.value));
