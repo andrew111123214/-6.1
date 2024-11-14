@@ -35,6 +35,8 @@ function createTable(parent,cols,rows)
         table.appendChild(tr);
     }
     parent.appendChild(table);
+    inputRows.value= '';
+    inputCols.value= '';
 }
 buttonOne.addEventListener('click',enterBtnOne);
 buttonTwo.addEventListener('click',enterBtnTwo);
