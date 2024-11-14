@@ -36,7 +36,7 @@ function createTable(parent,cols,rows)
     }
     parent.appendChild(table);
 }
-buttonOne.addEventListener = ('click',enterBtnOne);
-buttonTwo.addEventListener = ('click',enterBtnTwo);
-buttonThree.addEventListener = ('click',enterBtnThree);
-buttonFour.addEventListener = ('click', ()=>createTable(elem1,inputCols.value,inputRows.value));
+buttonOne.addEventListener('click',enterBtnOne);
+buttonTwo.addEventListener('click',enterBtnTwo);
+buttonThree.addEventListener('click',enterBtnThree);
+buttonFour.addEventListener('click', ()=>createTable(elem1,inputCols.value,inputRows.value));
