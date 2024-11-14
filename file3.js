@@ -23,18 +23,25 @@ function createTable(parent,cols,rows)
     cols = parseInt(cols);
     rows = parseInt(rows);
     let table =  document.createElement('table');
-    for (var i = 0; i < rows; i++) 
+    for (var i = 1; i <= rows; i++) 
         {
             var tr =  document.createElement('tr');
 
-        for (var j = 0; j <cols; j++) 
+        for (var j = 1; j <=cols; j++) 
         {
             var td =  document.createElement('td');
+            let value = i*j;
+            if (i === j) 
+                {
+                td.style.backgroundColor = 'red';
+                }
+            td.innerText = value ;
             table.appendChild(td);
         }
         table.appendChild(tr);
     }
     parent.appendChild(table);
+    input.value = '';
     inputRows.value= '';
     inputCols.value= '';
 }
