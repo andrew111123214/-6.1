@@ -5,17 +5,16 @@ const button1 = document.querySelector('.btn2');
 var inputCols = document.querySelector('.inputCols');
 const button2 = document.querySelector('.btn3');
 const button3 = document.querySelector('.createTable');
-var elem = document.querySelector('#elem');
-createTable(elem, inputCols.value, inputRows.value)
-function enterBtn1()
+var elem1 = document.querySelector('#elem');
+function enterBtnOne()
 {
-    console.log();
+    console.log(input.value);
 }
-function enterBtn2()
+function enterBtnTwo()
 {
     console.log(inputRows.value);
 }
-function enterBtn3()
+function enterBtnTree()
 {
     console.log(inputCols.value);
 }
@@ -37,7 +36,7 @@ function createTable(parent,cols,rows)
     }
     parent.appendChild(table);
 }
-button.addEventListener = ('click',enterBtn1);
-button1.addEventListener = ('click',enterBtn2);
-button2.addEventListener = ('click',enterBtn3);
-button3.addEventListener = ('click', ()=>createTable(elem,inputCols.value,inputRows.value));
+button.addEventListener = ('click',enterBtnOne);
+button1.addEventListener = ('click',enterBtnTwo);
+button2.addEventListener = ('click',enterBtnTree);
+button3.addEventListener = ('click', ()=>createTable(elem1,inputCols.value,inputRows.value));
