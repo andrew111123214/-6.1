@@ -8,7 +8,7 @@ function square()
     valueTwo = parseFloat(formElementInputTwo.value);
     let sqare = valueOne*valueTwo*0.5
     console.log(sqare);
-    alert("Площадь треугольника = "+ (sqare));
+    alert("Площадь треугольника = "+ (sqare)+" см2");
     formElementInputOne.value = "";
     formElementInputTwo.value = "";
 }
