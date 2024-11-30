@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Лабораторная работа</title>
+        <title>Расположения текста или изображения внутри ячейки</title>
         <link rel="stylesheet" href="style8.css">
         <script src="file8.js"defer></script>
     </head>
@@ -11,12 +11,34 @@
         <div class="container">
             <h1>JavaScript</h1>
         </div>
-        <form name="main">Выберите форму витража<br>
+        <h3>Расположение текста или изображения внутри ячейки</h3>
+            Выберите значения атрибутов, которые Вас интересуют, и нажмите кнопку Просмотр
+            <table>
+            <tr>
+                <th>Значения атрибутов выравнивания таблицы</th>
+                <th>Действия при выбранных значениях атрибутов</th>
+            </tr>
+            <tr>
+                <td > Горизонтальное выранивание<br>
+                    <form>
             <input type="radio"  value="прямоугольник" name="radio">Прямоугольник<br>
             <input type="radio"  value="Квадрат" name="radio">Квадрат<br>
             <input type="radio"  value="Треугольник" name="radio">Тругольник<br>
-            <input type="radio"  value="Круг" name="radio">Круг<br>
-            <button name="btn">Выполнить</button>
+                </td>
+            <td rowspan="2">
+                <img src="zyzz.jpg">
+            </td>
+            </tr>
+                <tr>
+                    <td >Вертикальное выравнивание<br>
+                        <input type="radio"  value="прямоугольник" name="radio">Прямоугольник<br>
+                        <input type="radio"  value="Квадрат" name="radio">Квадрат<br>
+                        <input type="radio"  value="Треугольник" name="radio">Тругольник<br>
+                    </td>
+                </tr>
+            </form>
+        </table>
+        <button name="btn">Выполнить</button>
         </form>
     </body>
 </html>
