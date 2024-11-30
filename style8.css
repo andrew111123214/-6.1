@@ -2,6 +2,8 @@ table
 {
     border: 1px solid black;
     margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0px;
 }
 th
 {
@@ -11,6 +13,9 @@ td
 {
     border: 1px solid black;
     height: 200px;
+}
+tr{
+    border: 1px solid black;
 }
 img
 {
@@ -24,4 +29,8 @@ h3
 h1
 {
     text-align: center;
+}
+div
+{
+    align-items: center;
 }
