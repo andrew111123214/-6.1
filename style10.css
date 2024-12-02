@@ -1,0 +1,37 @@
+body
+{
+    display: grid;
+    place-items: center; 
+    height: 100vh;
+   
+}
+form
+{
+    width: auto;
+    height: auto;
+    border:1px solid black;
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+}
+.container
+{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: rows;
+}
+input
+{
+    width: 400px;
+}
+table
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+td
+{
+    border: 1px solid black;
+}
