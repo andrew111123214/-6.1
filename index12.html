@@ -3,11 +3,22 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Лабораторная работа</title>
+        <title> Данные представленные флажком. Анкета переводчика</title>
         <link rel="stylesheet" href="style12.css">
         <script src="file12.js" defer></script>
     </head>
     <body>
-
+        <form name="main">
+            <h3>Анкета для переводчиков</h3>
+            Укажите те языки, которыми вы владете в совершенстве:<br>
+            <input style="cursor: pointer;" type="checkbox" value="100" name="check">Русский<br>
+            <input style="cursor: pointer;" type="checkbox" value="200" name="check">Английский<br>
+            <input style="cursor: pointer;" type="checkbox" value="300" name="check">Французский<br>
+            <input style="cursor: pointer;" type="checkbox" value="400" name="check">Немецкий<br>
+            <input style="cursor: pointer;" type="checkbox" value="500" name="check">Китайский<br>
+            <input style="cursor: pointer;" type="checkbox" value="600" name="check">Японский<br>
+            <button style="cursor: pointer;"  name="btn">Зарплата</button>
+            <button style="cursor: pointer;" type="reset">Отмена</button>
+        </form>
     </body>
 </html>
