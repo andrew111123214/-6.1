@@ -1,26 +1,21 @@
 const formElement = document.forms.main;
-const formElementRadio = formElement.elements['radio'];
-const formElementReset = formElement.reset;
+const formElementRadio = formElement.elements['Myradio'];
 const button = document.querySelector('button[name="btn"]');
+const formElementTextArea = formElement.textArea;
 console.log(formElement.elements);
-button.addEventListener('click',function()
+function fun()
 {
     let k;
     for (let i=0; i < formElementRadio.length; i++) 
         {
             if(formElementRadio[i].checked)
                 {
-                k = formElementRadio[i].value;
+                k =("Свойство value:" + formElementRadio[i].value +"\n\r"+"Свойство name:" + formElementRadio[i].name +"\n\r"+"Свойство type:" + formElementRadio[i].type);
                 }
+                formElementTextArea.value = k;
         }
-        if(k)
-            {
-                alert("Выбрана форма:" +k);
-
-            }
-        else
-        {
-            alert("Выберете хотя бы одно значение!");
-        }
-    }
-);
+}
+for (let i = 0; i < formElementRadio.length; i++) 
+    {
+    formElementRadio[i].addEventListener('change', fun);
+}
