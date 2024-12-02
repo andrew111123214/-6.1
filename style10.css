@@ -4,14 +4,17 @@ body
     place-items: center; 
     display: flex;
     flex-direction: row;
+   
 }
 .main
 {
     width: auto;
     height: auto;
-    background-color:orange;
+    background-color:black;
     padding: 20px;
     text-align: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 .container
 {
@@ -21,6 +24,15 @@ body
 .enter
 {
     width: 400px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    height: 25px;
+    font-size: larger;
+}
+.enter:focus
+{
+    outline: none; 
+    border-color: orange;
 }
 table
 {
@@ -49,23 +61,49 @@ td
 {
     width: 300px;
     height: 400px;
+    background-color: white;
 }
 .td
 {
     text-align: left;
+    
 }
 textarea
 {
+    border: 2px solid orange;
     align-items: center;
     width: 300px;
     height: 200px;
-    background-color: orange;
+    background-color:orange;
     border-radius: 15px;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
+
+}
+textarea:focus
+{
+    outline: none; 
+    border-color: orange;
 }
 .mainTwo
 {
+    padding: 10px;
     text-align: center;
-    
+    background-color:black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+button
+{
+    background-color: orange;
+    border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 1110px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+button:active
+{
+    transform: scale(0.95);
 }
