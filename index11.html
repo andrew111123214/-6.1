@@ -3,11 +3,37 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Лабораторная работа</title>
-        <link rel="stylesheet" href="style11.css">
-        <script src="file11.js" defer></script>
+        <title>Анкета читателя</title>
+        <link rel="stylesheet" href="style10.css">
+        <script src="file10.js"defer></script>
     </head>
     <body>
-
+        <img src="снимок1.png" class="img_1">
+        <div class="container">
+        <div class="container2">
+        <form name="main" class="main">
+            <h3 style="color: white;">Введите название любимого журнала или  газеты</h3>
+            <input type="text" name="input" value="" class="enter">
+            <h3 style="color: white;"> Что Вас привлекает в издании?</h3>
+        </form>
+        <form name="mainTwo" class="mainTwo">
+            <table>
+                <tr>
+                    <td><img src="книга.jpg" class="img"></td>
+                    <td class="td">
+                        <input style="cursor: pointer;" type="checkbox" name="check" value="Стиль подачи материала">Стиль подачи материала<br>
+                        <input style="cursor: pointer;" type="checkbox" name="check" value="Достоверность информации">Достоверность информации<br>
+                        <input style="cursor: pointer;" type="checkbox" name="check" value="Дизайн и оформление">Дизайн и оформление<br>
+                        <input style="cursor: pointer;" type="checkbox" name="check" value="Качество информации">Качество информации<br>
+                        <input style="cursor: pointer;" type="checkbox" name="check" value="Репутация издания">Репутация издания<br>
+                        <input style="cursor: pointer;" type="checkbox" name="check" value="Регулярность издания">Регулярность издания<br>
+                    </td>
+                </tr>
+            </table>
+            <textarea readonly name="textArea">Вас привлекает:</textarea><br>
+            <button type="reset">Отмена</button>
+        </form>
+    </div>
+    </div>
     </body>
 </html>
