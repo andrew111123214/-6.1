@@ -10,20 +10,28 @@
     <body>
         <div class="container">
         <img src="снимок1.png">
-        <form name="main">
+        <div class="container2">
+        <form name="main" class="main">
             <h3>Введите название любимого журнала или  газеты</h3>
-            <input type="text" name="input" value="">
+            <input type="text" name="input" value="" class="enter">
             <h3> Что Вас привлекает в издании?</h3>
+        </form>
+        <form name="mainTwo" class="mainTwo">
             <table>
                 <tr>
-                    <td><img src="книга.jpg" class="img"></td>
-                    <td></td>
+                    <td class="td"><img src="книга.jpg" class="img"></td>
+                    <td>
+                        <input type="checkbox" name="input" value="Стиль подачи материала">Стиль подачи материала<br>
+                        <input type="checkbox" name="input" value="Достоверность информации">Достоверность информации<br>
+                        <input type="checkbox" name="input" value="Дизайн и оформление">Дизайн и оформление<br>
+                        <input type="checkbox" name="input" value="Качество информации">Качество информации<br>
+                        <input type="checkbox" name="input" value="Репутация издания">Репутация издания<br>
+                        <input type="checkbox" name="input" value="Регулярность издания">Регулярность издания<br>
+                    </td>
                 </tr>
-
             </table>
-
-
         </form>
+    </div>
     </div>
     </body>
 </html>
