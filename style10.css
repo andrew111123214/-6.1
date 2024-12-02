@@ -28,7 +28,6 @@ table
     border: 1px solid black;
     border-collapse: collapse;
     border-spacing: 0px;
-    
 }
 td
 {
@@ -40,10 +39,6 @@ td
     height: 300px;
     
 }
-img
-{
-    margin-right: 50px;
-}
 .container2
 {
 
@@ -53,11 +48,18 @@ img
 }
 td
 {
-    width: auto;
+    width: 300px;
     height: 400px;
-    background-color: white;
 }
 .td
+{
+    text-align: left;
+}
+textarea
+{
+    align-items: center;
+}
+.mainTwo
 {
     text-align: center;
 }
