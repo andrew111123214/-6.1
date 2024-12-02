@@ -1,11 +1,11 @@
-const formElement = document.forms.main;
+const formElement = document.forms.mainTwo;
 const formElementCheckBox = formElement.elements['check'];
 const button = document.querySelector('button[name="btn"]');
-const formElementTextArea = formElement.textArea;
+const formElementTextArea = formElement.elements.textArea;
 console.log(formElement.elements);
 function fun()
 {
-    let k;
+    let k="";
     for (let i=0; i < formElementCheckBox.length; i++) 
         {
             if(formElementCheckBox[i].checked)
@@ -13,7 +13,7 @@ function fun()
                 k +=formElementCheckBox[i].value + "\n";
                 }
         }
-        formElementTextArea.value = k;
+        formElementTextArea.value =("Вас привлекает:"+"\n"+ k);
 }
 for (let i = 0; i < formElementCheckBox.length; i++) 
     {
