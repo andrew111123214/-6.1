@@ -1,4 +1,12 @@
-div
+.container
+{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    border-color: brown;
+    border: 1px solid black;
+}
+h1
 {
     text-align: center;
 }
