@@ -15,7 +15,7 @@ function fun()
                         "\n"+"Свойство type:" + formElementCheckBox[i].type);
                 }
         }
-        formElementTextArea.value =("Свойства выбранного флажка"+"\n"+ k);
+        formElementTextArea.value =("Свойства выбранного флажка:"+"\n"+ k);
 }
 for (let i = 0; i < formElementCheckBox.length; i++) 
     {
