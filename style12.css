@@ -19,9 +19,15 @@ form
 }
 button
 {
+    margin-top: 15px;
     background-color: orange;
     padding: 5px;
     font-size: large;
     border:none;
     border-radius: 110px;
+    transition: transform 0.1s ease;
+}
+button:active
+{
+    transform: scale(0.95);
 }
