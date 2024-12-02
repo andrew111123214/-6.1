@@ -10,10 +10,12 @@ function fun()
         {
             if(formElementCheckBox[i].checked)
                 {
-                k +=formElementCheckBox[i].value + "\n";
+                    k =("Свойство value:" + formElementCheckBox[i].value +
+                        "\n"+"Свойство name:" + formElementCheckBox[i].name +
+                        "\n"+"Свойство type:" + formElementCheckBox[i].type);
                 }
         }
-        formElementTextArea.value =("Вас привлекает:"+"\n"+ k);
+        formElementTextArea.value =("Свойства выбранного флажка"+"\n"+ k);
 }
 for (let i = 0; i < formElementCheckBox.length; i++) 
     {
