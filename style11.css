@@ -1,9 +1,10 @@
 body
 {
-    display: grid;
+    display: grid; 
     place-items: center; 
-    display: flex;
-    flex-direction: row;
+    height: 100vh; 
+    margin: 0; 
+    grid-template-columns: repeat(2, auto)
    
 }
 .main
@@ -20,6 +21,7 @@ body
 {
     display: flex;
     justify-content: center;
+   
 }
 .enter
 {
