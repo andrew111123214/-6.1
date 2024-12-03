@@ -25,4 +25,36 @@ form button
         {
             margin-bottom: 10px;
         }
-    
+        button
+        {
+            margin-top: 15px;
+            background-color: orange;
+            padding: 5px;
+            font-size: large;
+            border:none;
+            border-radius: 10px;
+            transition: transform 0.1s ease;
+            cursor: pointer;
+        }
+        button:active
+        {
+            transform: scale(0.95);
+        }
+        select
+        {
+            width: 200px;
+            height: 40px;
+            background-color: yellowgreen;
+            padding: 5px;
+            font-size: large;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        input
+        {
+            padding: 5px;
+            font-size: large;
+            border-radius: 10px;
+            width: 300px;
+            cursor: pointer;
+        }
