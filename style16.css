@@ -1,0 +1,28 @@
+body
+{
+    display: grid; 
+    place-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    grid-template-columns: repeat(2, auto)
+}
+form
+{
+    
+    width: auto;
+    height: auto;
+    background-color:black;
+    padding: 20px;
+    color: orange;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+form input,
+form select,
+form label ,
+form button
+        {
+            margin-bottom: 10px;
+        }
+    
