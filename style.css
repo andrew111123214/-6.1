@@ -1,15 +1,27 @@
+body
+{
+    display: grid; 
+    place-items: center; 
+    height: 100vh; 
+    margin: 0; 
+}
 table
 {
     width: auto;
     border: 1px solid yellowgreen;
+    
+    
 }
+
 td
 {
     border: 1px  solid yellowgreen;
+    
 }
 th
 {
     border: 1px  solid yellowgreen;
+    
 }
 a
 {
