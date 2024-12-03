@@ -24,7 +24,7 @@ button
     padding: 5px;
     font-size: large;
     border:none;
-    border-radius: 110px;
+    border-radius: 10px;
     transition: transform 0.1s ease;
 }
 button:active

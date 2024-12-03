@@ -1,0 +1,48 @@
+body
+{
+    display: grid; 
+    place-items: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+form
+{
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color:black;
+    padding: 20px;
+    color: orange;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+button
+{
+    margin-top: 15px;
+    background-color: orange;
+    padding: 5px;
+    font-size: large;
+    border:none;
+    border-radius: 10px;
+    transition: transform 0.1s ease;
+}
+button:active
+{
+    transform: scale(0.95);
+}
+select
+{
+    width: 200px;
+    height: 40px;
+    background-color: yellowgreen;
+    padding: 5px;
+    font-size: large;
+    border-radius: 10px;
+}
+input
+{
+    padding: 5px;
+    font-size: large;
+    border-radius: 10px;
+}
