@@ -4,26 +4,36 @@ body
     place-items: center; 
     height: 100vh; 
     margin: 0; 
+    
 }
 table
 {
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
     width: auto;
     border: 1px solid yellowgreen;
-    
+    border-collapse: collapse;
+    background-color:black;
+    border-spacing: 0px;
     
 }
 
 td
 {
-    border: 1px  solid yellowgreen;
-    
+    border: 1px  solid white;
+   height: 40px;
 }
 th
 {
-    border: 1px  solid yellowgreen;
-    
+    border: 1px  solid white;
+    height: 40px;
 }
+
 a
 {
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding: 10px;
+   color: white;
 }
