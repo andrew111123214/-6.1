@@ -16,7 +16,7 @@ function activity()
         }
     for (let j = 0; j<formElementRadio_1.length; j++) 
         {
-            if(formElementRadio_1[j].cheked)
+            if(formElementRadio_1[j].cheсked)
                 {
                     image.style.verticalAlign=formElementRadio_1[j].value.toLowerCase();
                 }
